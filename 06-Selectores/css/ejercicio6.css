@@ -1,0 +1,15 @@
+button::before {
+    content: "Pasa por encima";
+    cursor: pointer;
+    
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+button:hover::before {
+    content: "¡Hecho!";
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,23 @@
+.div-1, .div-2 {
+    background-color: fuchsia;
+    /* display: block; POR DEFECTO - div tienes display block */
+    
+}
+
+.span1 {
+    background-color: greenyellow;
+    float: right;
+    /* display: inline; POR DEFECTO - span tienen un display inline */
+}
+
+.span2 {
+    background-color: lightblue;
+    float: left;
+    /* display: inline; POR DEFECTO - span tienen un display inline */
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}

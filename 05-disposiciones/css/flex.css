@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    height: 300px;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    align-items: flex-end;
+
+}
+
+.contenido-1 {
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: blueviolet;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
